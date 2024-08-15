@@ -1,0 +1,27 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Doação </title>
+    <link rel="stylesheet" type="text/css" href="donate.css">
+</head>
+<body>
+    <section id="donate">
+    
+        <form id="card-donate" action="https://api.sheetmonkey.io/form/51ML4vi5vcAtkAbF5RTpFp" method="post">
+            <h1> Doação Pet-Help </h1>
+            <label for="name"> Nome </label>
+            <input name="name" type="name" autocomplete="name" placeholder="Informe seu nome"/>
+            <label for="email"> Email </label>
+            <input name="email" type="email" autocomplete="email" placeholder="Informe seu email"/>
+            <label for="telefone"> Telefone </label>
+            <input name="telefone" type="tel" autocomplete="tel" placeholder="Informe seu telefone"/>
+            <label for="valor"> Valor </label>
+            <input name="valor" type="number" autocomplete="cc-number" placeholder="Digite o valor da contribuição"/>
+            <div id="buttons-register">
+                <button id="register-btn" type="submit" onclick="sendData(event)"> Doar </button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
